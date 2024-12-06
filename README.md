@@ -67,7 +67,9 @@
 
 ## 环境要求
 
-   使用 W80X 模拟器制作的 [W802 虚拟开发板](https://yichen.link/?log=blog&id=97)，用法：
+   使用 W80X 模拟器制作的 [W802 虚拟开发板](https://yichen.link/?log=blog&id=97)，需在 [WM IoT SDK](https://github.com/winnermicro/wm_iot_sdk) 下编译。
+
+   用法：
 
 `w80x -elf .\build\w802_virt_board.elf -img .\build\w802_virt_board.fls` 或 `w80x -prj`
 
