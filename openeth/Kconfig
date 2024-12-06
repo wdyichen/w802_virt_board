@@ -1,0 +1,6 @@
+
+config WM_NETIF_ENABLE_ETH
+    bool
+    default y
+    help
+        Internal use, any modification is not allowed.

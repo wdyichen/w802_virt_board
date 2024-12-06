@@ -1,0 +1,11 @@
+#flash size 128MB, 0-0x8000000
+# name,          offset,    size,      flag
+ft,              0x0,       0x2000,    0x0
+bootloader,      0x2000,    0xC000,    0x0
+partition_table, 0xE000,    0x1000,    0x0
+#nvs size 32KB
+nvs,             0xF000,    0x8000,    0x0
+#ota size 932KB+1MB
+app_ota,         0x17000,   0x1E9000,  0x0
+#app size 126MB
+app,             0x200000,  0x7E00000, 0x0
